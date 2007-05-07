@@ -13,6 +13,7 @@ URL:		http://www.freevo.org/kaa/
 BuildRequires:	imlib2-devel >= 1.2.1
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
+BuildRequires:	python-kaa-base
 %pyrequires_eq	python-modules
 Requires:	python-kaa-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
