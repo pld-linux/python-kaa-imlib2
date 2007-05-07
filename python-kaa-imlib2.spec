@@ -12,14 +12,15 @@ Source0:	http://dl.sourceforge.net/freevo/%{module}-%{version}.tar.gz
 URL:		http://www.freevo.org/kaa/
 BuildRequires:	imlib2-devel >= 1.2.1
 BuildRequires:	python-devel >= 1:2.5
-BuildRequires:	rpm-pythonprov
 BuildRequires:	python-kaa-base
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 Requires:	python-kaa-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Imlib2 wrapper for python.
+
 %description -l pl.UTF-8
 Wrapper imlib2 dla Pythona.
 
