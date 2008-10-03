@@ -4,7 +4,7 @@ Summary:	Imlib2 wrapper for python
 Summary(pl.UTF-8):	Wrapper imlib2 dla Pythona
 Name:		python-%{module}
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/freevo/%{module}-%{version}.tar.gz
