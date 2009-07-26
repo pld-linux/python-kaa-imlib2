@@ -14,6 +14,7 @@ BuildRequires:	imlib2-devel >= 1.2.1
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-kaa-base
 BuildRequires:	rpm-pythonprov
+BuildRequires:	libpng-devel
 %pyrequires_eq	python-modules
 Requires:	python-kaa-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
