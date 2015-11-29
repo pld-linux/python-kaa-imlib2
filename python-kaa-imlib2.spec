@@ -10,6 +10,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/freevo/%{module}-%{version}.tar.gz
 # Source0-md5:	f4d3019b7471a7da541e13de91ec2875
 URL:		http://www.freevo.org/kaa/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	imlib2-devel >= 1.2.1
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-kaa-base
